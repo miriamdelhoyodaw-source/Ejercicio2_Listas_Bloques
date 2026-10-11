@@ -1,0 +1,49 @@
+h1 {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+/* Menú Horizontal */
+.menu-horizontal {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 15px 0;
+    background-color: #636335;
+    display: flex;
+}
+.menu-horizontal li a {
+    display: block;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.menu-horizontal li a:hover {
+    background-color: #6a6a43;
+}
+
+/* Menú Vertical */
+.menu-vertical {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 150px;
+}
+.menu-vertical li a {
+    display: block;
+    color: white;
+    background-color: #76db33;
+    padding: 10px 15px;
+    text-decoration: none;
+    margin-bottom: 2px;
+}
+.menu-vertical li a.activo {
+    background-color: #ff0000;
+}
+.menu-vertical li a:hover {
+    opacity: 0.9;
+}
